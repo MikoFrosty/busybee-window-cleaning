@@ -77,21 +77,22 @@ section {
     padding: 10px;
     border-radius: 6px;
     border: 1px solid #364045;
-    background-color: #47b24a;
+    background-color: #44a847;
     font-size: 2rem;
     transition: 0.3s;
 }
 .estimate-button a {
-    /*font-family: 'Architects Daughter', cursive;*/
     text-transform: uppercase;
+    font-weight: 600;
     color: #fff;
     text-decoration: none;
     margin: 0;
     padding: 0;
     white-space: nowrap;
+    text-shadow: 0 0 2px black;
 }
 .estimate-button:hover {
-    background-color: #279838;
+    background-color: #368539;
     color: #fafafa;
 }
 
@@ -524,8 +525,8 @@ footer .container {
     }
     #about .container .about-box img {
         min-width: 0px;
+        max-width: 100%;
         height: auto;
-        width: 100%;
         margin: 0;
         padding: 0;
     }
