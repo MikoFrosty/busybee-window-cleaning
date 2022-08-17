@@ -168,16 +168,24 @@ nav ul li a:hover {
 }
 #intro-text-box {
   display: inline-block;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0;
   padding: 20px 0;
   padding-bottom: 40px;
   text-align: center;
   background-color: #f7f7f053;
-  border-radius: 30px;
+  border-radius: 10px;
   border: rgba(0, 0, 0, 0.3) 1px solid;
-  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
-  background-image: linear-gradient(#f7f7f0b8, #f7f7f027);
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+  
+}
+#intro-text-box h1 {
+  font-size: 3.4rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 20px;
+  text-shadow: none;
+  transform: scaleY(1.1);
 }
 #intro #intro-text-box img {
   display: none;
@@ -436,6 +444,9 @@ footer .container {
   }
   nav ul li a {
     font-size: 2rem;
+  }
+  #intro-text-box h1 {
+    font-size: 3.0rem;
   }
   #services .container .service-box {
     min-width: 280px;
